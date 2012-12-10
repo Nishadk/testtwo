@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Currency</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="buttonINR">INR-XXXX</string>
+    <string name="buttonGBP">GBP-XXXX</string>
+    <string name="buttonUSD">USD-XXXX</string>
+    <string name="buttonSAR">SAR-XXXX</string>
+    <string name="buttonOMR">OMR-XXXX</string>
+    <string name="buttonBAH">BAH-XXXX</string>
+    <string name="buttonQAR">QAR-XXXX</string>
+    <string name="buttonAED">AED-XXXX</string>
+</resources>

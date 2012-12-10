@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Currency_Main" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonINR" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonAED" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonBAH" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonGBP" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonOMR" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonQAR" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonSAR" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="currencyclick"
+                android:text="@string/buttonUSD" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
